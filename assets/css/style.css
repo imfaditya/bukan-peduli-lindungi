@@ -2,21 +2,60 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     color: #07924F;
     font-size: 21px;
     font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .checklist{
     width: 85px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card{
+    background-color: #F6F6F6;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px 15px 3px 3px;
+
+}
+
+.green-box{
+    display: flex;
+    background-color: #04944F;
+    font-size: 14px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 10px;
+
+    align-items: center;
+}
+
+.green-box p{
+    color: #04944F;
+    background-color: white;
+    height: 50%;
+    border-radius: 20px;
+    padding: 10px 13px 10px 13px;
+}
+
+.qr{
+    width: 60px;
+    height: 100%;
+    border-radius: 5px;
 }
