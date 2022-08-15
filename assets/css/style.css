@@ -127,6 +127,10 @@ footer{
     background-color: white;
 }
 
+.img-footer img{
+    padding-right: 15px;
+}
+
 button{
     background-color: white;
     border: 2px solid #7c7c7c;
